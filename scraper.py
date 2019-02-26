@@ -12,7 +12,7 @@ root = lxml.html.fromstring(html)
 root.cssselect("li")
 #cssselect is a selector, root stores the html so we can explore the data, cssselect will grab anything under an "a" tag, which is
 #then stored in new variable links.
-links = root.cssselect("li)
+links = root.cssselect("li")
 
 
 #
