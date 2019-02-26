@@ -16,7 +16,9 @@ links = root.cssselect("ul li a")
 
 print (links)
 
-
+for li in links:
+  liststexts = li.text_content()
+  print (listtexts)
 
 #
 # # Write out to the sqlite database using scraperwiki library
