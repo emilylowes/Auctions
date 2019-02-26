@@ -18,7 +18,7 @@ print (links)
 
 for li in links:
   liststexts = li.text_content()
-  print (listtexts)
+  print (liststexts)
 
 #
 # # Write out to the sqlite database using scraperwiki library
