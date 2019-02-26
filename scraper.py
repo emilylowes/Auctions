@@ -16,7 +16,7 @@ links = root.cssselect("ul li a")
 
 print (links)
 
-for li in links:
+for li in links[:300]:
   liststexts = li.text_content()
   print (liststexts)
 
