@@ -26,9 +26,7 @@ for li in links:
   liststexts = li.text_content()
   print (liststexts)
   record['address']=liststexts
-  
-  
-scraperwiki.sqlite.save(['address'],record)
+  scraperwiki.sqlite.save(['address'],record)
 
 
 #
