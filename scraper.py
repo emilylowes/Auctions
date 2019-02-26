@@ -9,10 +9,10 @@ html = scraperwiki.scrape("https://www.sdlauctions.co.uk/property-list/")
 #
 # # Find something on the page using css selectors
 root = lxml.html.fromstring(html)
-root.cssselect("h5")
+root.cssselect("a")
 #cssselect is a selector, root stores the html so we can explore the data, cssselect will grab anything under an "a" tag, which is
 #then stored in new variable links.
-links = root.cssselect("h5")
+links = root.cssselect("a")
 
 
 #
