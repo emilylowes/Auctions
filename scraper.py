@@ -14,6 +14,9 @@ root.cssselect("a")
 #then stored in new variable links.
 links = root.cssselect("a")
 
+print (links)
+
+
 
 #
 # # Write out to the sqlite database using scraperwiki library
